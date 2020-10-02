@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_medium">11pt</dimen>
+    <dimen name="font_large">12pt</dimen>
+    <dimen name="font_xlarge">14pt</dimen>
+
+    <dimen name="space_2">2dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_6">6dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+
+
+    <dimen name="w_placeholder">60dp</dimen>
+    <dimen name="h_placeholder">60dp</dimen>
+    <dimen name="m_placeholder">10dp</dimen>
+
+    <dimen name="p_search">10dp</dimen>
+    <dimen name="m_search">15dp</dimen>
+    <dimen name="h_search">40dp</dimen>
+
+    <dimen name="w_loading">70dp</dimen>
+
+    <dimen name="wh_not_found">150dp</dimen>
+</resources>

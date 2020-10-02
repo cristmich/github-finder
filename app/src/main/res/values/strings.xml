@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Github Finder</string>
+
+    <string name="logo">Logo</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="not_found">Not Found</string>
+    <string name="text_search">Search here</string>
+    <string name="text_yes">Ya</string>
+    <string name="text_no">Tidak</string>
+    <string name="text_close">Tutup</string>
+
+    <string name="text_404">404</string>
+    <string name="error_not_found">Data Account tidak ditemukan. Tolong hubungi customer service kami</string>
+
+    <string name="error_500">Terdapat kesalahan pada server kami. Silakan hubungi kami untuk membantu kami mengatasi kendala ini</string>
+    <string name="error_internet">Jaringan tidak tersambung.</string>
+    <string name="error_check_internet">Mohon cek koneksi internetmu.</string>
+</resources>

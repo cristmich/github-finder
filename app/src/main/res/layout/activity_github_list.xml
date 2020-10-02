@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            app:title="@string/app_name"
+            app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/p_search"
+                android:layout_margin="@dimen/m_search"
+                android:singleLine="true"
+                android:hint="@string/text_search"
+                android:enabled="false"
+                android:background="@drawable/bg_border_rounded_gray_light" />
+
+        <View
+                android:id="@+id/vSearch"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/h_search"
+                android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAccount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    android:visibility="visible">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+            android:id="@+id/rlNoData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerInParent="true">
+
+            <ImageView
+                    android:layout_width="@dimen/wh_not_found"
+                    android:layout_height="@dimen/wh_not_found"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/space_12"
+                    android:src="@drawable/bg_not_found"
+                    android:contentDescription="@string/not_found"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_12"
+                    android:layout_gravity="center"
+                    android:text="@string/text_404"
+                    android:textSize="@dimen/font_xlarge"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/space_10"
+                    android:text="@string/error_not_found"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
